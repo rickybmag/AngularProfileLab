@@ -1,0 +1,14 @@
+<h3>Edit User Profile</h3>
+
+<p>Name: </p>
+<input type="text" value="{{userToEdit.name}}" id="Name" />
+<br>
+
+<p>Contact: </p>
+<input type="email" value="{{userToEdit.contact}}" id="Contact" />
+<br>
+
+<p>Bio: </p>
+<input type="text" value="{{userToEdit.bio}}" id="Bio" />
+<br>
+<button (click)="UpdateUser()">Update User Info</button>
